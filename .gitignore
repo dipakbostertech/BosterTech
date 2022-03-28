@@ -15,11 +15,11 @@
 bin/
 obj/
 TestResults/
-Spinx.Web/Help/
+BosterTechWeb/Help/
 .vs
 .vscode
-Spinx.Web/.vs
-Spinx.Web/.vscode
+BosterTechWeb/.vs
+BosterTechWeb/.vscode
 /packages
 ###################
 # Web publish log #
@@ -70,16 +70,9 @@ _[Ss]cripts
 *.dot[Cc]over
 Builds/
 
-Spinx.Web/App_Data/logs
-Spinx.Web/App_Data/thumbs
-Spinx.Web/Files
-
-# CKFinder dll import
-!**/*/CKFinder.dll
-
-# node packages
-node_modules
-package-lock.json
+BosterTechWeb/App_Data/logs
+BosterTechWeb/App_Data/thumbs
+BosterTechWeb/Files
 
 # Any config files
 connections.config
@@ -87,20 +80,4 @@ app-settings.config
 ckfinder.config
 rewritemaps.config
 
-# Generated Assets
-Spinx.Web/tmp/
-Spinx.Web/dist/
-Spinx.Web/AdminApp/tmp/
-Spinx.Web/AdminApp/dist/
-
-# Asset version file
-*.version
-/Spinx.Web/Modules/Core/AWS/AWSClient.cs
-
-/Spinx.Web/Files/**
-
-#Ckfinder
-/Spinx.Web/userfiles
-
-/Spinx.Web/File/**
-/Spinx.Web/Config/httpsredirect.config
+/BosterTechWeb/Files/**
